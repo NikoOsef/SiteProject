@@ -5,20 +5,20 @@
 }
 
 .head{
-    background-color:rgb(19, 80, 160);
+    
+  
     display:flex;
+    
 
 }
 
-h1{
-    color:blue;
-}
+
 .logo{
     border-radius: 50%;
 }
 
 .menu{
-    background-color: rgb(22, 186, 228);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,26 +33,34 @@ h1{
     left:500px;
     top:40px;
 }
-.menu:hover{
-    color: rgb(238, 32, 25);
-
+.menu img{
+  width:60px;
+  height:60px;
+  background-color:transparent;
 }
 
-.images{
-    display:flex;
-    width:200px;
-    height:550px;
-    padding-top:50px;
-    gap:50px;
+
+.menu h1{
+  font-size:15px;
+  margin-top:20px;
+  color:red;
 }
+
+
 
 * {box-sizing:border-box}
+
+.container{
+  background-color: cyan;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-color:black;
+  
 }
 
 /* Hide the images by default */
@@ -129,7 +137,54 @@ h1{
   animation-duration: 1.5s;
 }
 
+.second-slide{
+  position:relative;
+  top:500px;
+}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.textContainer{
+  margin-top:100px;
+  justify-content:center;
+  gap:100px;
+  display:grid;
+  background-color:cyan;
+}
+
+.textContainer div{
+  height:400px;
+  width:700px;
+  color:red;
+  background-color:white;
+  margin-top:20px;
+}
+
+.textContainer ul{
+  margin-top:30px;
+  margin-left:50px;
+}
+
+.textContainer h1{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.header{
+  width: max;
+  color:white;
+  height:200px;
+  background-color:rgb(6, 81, 87);
+  display:flex;
+  gap:900px;
+  margin-top:200px;
+  align-items: center;
+}
+
+.header h1{
+  font-size:50px;
+  margin-left:20px;
 }
