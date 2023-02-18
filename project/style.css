@@ -179,12 +179,38 @@
   height:200px;
   background-color:rgb(6, 81, 87);
   display:flex;
-  gap:900px;
-  margin-top:200px;
+  justify-content:center;
+  gap:600px;
+  margin-top:20px;
   align-items: center;
+
 }
 
 .header h1{
   font-size:50px;
   margin-left:20px;
+}
+
+.form{
+  margin-top: 100px;
+  height:400px;
+  width:400px;
+  background-color: white;
+  display:grid;
+  margin-bottom:50px;
+}
+
+.form div{
+  height:70px;
+  background-color: lightgray;
+}
+
+.formContainer{
+  display:flex;
+  justify-content:center;
+  gap:100px;
+}
+
+.formContainer h1{
+  margin-left:50px;
 }
